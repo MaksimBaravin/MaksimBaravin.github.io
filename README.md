@@ -1,2 +1,2 @@
-# MaksimBaravin.github.io
+# Максим Баравин
 Мой первый сайт
