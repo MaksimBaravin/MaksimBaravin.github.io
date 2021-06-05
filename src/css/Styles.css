@@ -1,0 +1,496 @@
+body {
+    font-family: 'Franklin Gothic Medium', Arial, 'sans-serif';
+}
+
+nav {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    background: #344051;
+}
+
+h2 {
+    color: #384354;
+    margin-top: 90px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    background: url(../img/Фон/line.png) center bottom no-repeat;
+}
+
+p {
+    color: #626976;
+    font-size: 17px;
+    text-align: center;
+    font-family: Calibri, Arial, 'sans-serif';
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    line-height: 60px;
+    padding-left: 15%;
+    float: left;
+}
+
+.menu {
+    float: right;
+    margin-right: 10%;
+}
+
+.menu li {
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    padding-left: 40px;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.main {
+    width: auto;
+    height: 100%;
+    background: url(../img/Фон/VV.png) repeat-x 0% 106%, url(../img/Фон/boy.png) 90% 100%/auto 85% no-repeat, url(../img/Фон/BG.jpeg) center 0px/cover no-repeat;
+}
+
+.title__container1 {
+    padding-top: 20%;
+    padding-right: 30%;
+    float: center;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title__container1 h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container1 h4 {
+    margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+    font-weight: bold
+}
+
+.title__container1 input {
+    height: 40px;
+    text-emphasis: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 58px 14px 0px 14px;
+}
+
+.about_me {
+    width: 100%;
+    height: 60%;
+    background: url(../img/Фон/BG2.jpeg) center/cover no-repeat;
+}
+
+.title__container2 {
+    text-align: center;
+    color: #263244;
+}
+
+.title__container2 img {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title__container2 p {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 730px;
+    color: #3f495a;
+    font-family: Calibri, Arial, 'sans-serif';
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.title__container2 input {
+    height: 40px;
+    text-emphasis: center;
+    border: 2px solid #6d7682;
+    background: url(../img/кнопки/load.png) 10px center no-repeat;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 17px;
+    padding: 10px 10px 10px 30px;
+    margin-top: 20px;
+}
+
+.item_skills {
+    width: 100%;
+    height: 60%;
+    background: url(../img/Фон/BG3.jpeg) center/cover no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.item_skills h2 {
+    padding-top: 5%;
+}
+
+.title__container3 li {
+    margin-top: 5%;
+    float: left;
+    line-height: 70px;
+    text-align: center;
+    color: #cf7600;
+    padding-left: 10%;
+    padding-top: 2%;
+    font-size: 19px;
+}
+
+.web {
+    background: url(../img/иконки/note.png) top left 75% no-repeat;
+}
+
+.job {
+    background: url(../img/иконки/znak.png) top left 75% no-repeat;
+}
+
+.ceo {
+    background: url(../img/иконки/raketa.png) top left 75% no-repeat;
+}
+
+.hr {
+    background: url(../img/иконки/megafon.png) top left 75% no-repeat;
+}
+
+.title__container3 p {
+    color: #4e5766;
+    font-family: Calibri, Arial, 'sans-serif';
+    line-height: 20px;
+    float: center;
+    text-align: center;
+    font-size: 17px;
+}
+
+.keys p {
+    line-height: 80px;
+}
+
+.title__container4 {
+    position: relative;
+    margin-top: -11%;
+}
+
+.title__container4 p {
+    line-height: 25px;
+}
+
+.client {
+    padding-left: 20%;
+    color: #384354;
+    font-size: 25px;
+    text-align: left;
+}
+
+.projekt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #384354;
+    font-size: 25px;
+    text-align: left;
+    float: center;
+    padding-left: 20%;
+    margin-left: 15%
+}
+
+.wb {
+    padding-left: 20%;
+    color: #384354;
+    font-size: 25px;
+    text-align: left;
+    float: center;
+}
+
+.p3 {
+    font-size: 19px;
+    text-align: left;
+    padding-left: 20%;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    margin-left: 15%
+}
+
+.p2 {
+    line-height: 16px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20%;
+}
+
+.title__container4 input {
+    height: 45px;
+    width: 200px;
+    text-emphasis: center;
+    border: 2px solid #63b5ae;
+    background: #63b5ae;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 21px;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.title__container5 {
+    background: url(../img/Фон/pod.png) 50% 90% no-repeat;
+}
+
+.title__container5 h2 {
+    color: #1c2534;
+    background: none;
+    font-size: 46px;
+}
+
+.title__container5 h3 {
+    color: #1c2534;
+    background: none;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 27%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+.title__container5 p {
+    color: #1c2534;
+    background: none;
+    font-size: 21px;
+    text-align: left;
+    margin-left: 27%;
+    padding-top: 15px;
+    margin-top: 10px;
+    float: left;
+}
+
+.title__container5 h5 {
+    color: #1c2534;
+    background: none;
+    font-size: 21px;
+    text-align: right;
+    margin-right: 27%;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.title__container5 select {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 890px;
+    background: url(../img/кнопки/str.png) no-repeat right #eeeeee;
+    color: #737373;
+    font-size: 17px;
+    padding-left: 25px;
+    background-position: calc(100% - 30px);
+    appearance: none;
+}
+
+.itog {
+    padding-top: 1%;
+    height: 100px;
+}
+
+.statistik {
+    width: 100%;
+    height: 50%;
+    background: url(../img/Фон/BG4.jpeg) center/cover no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.statistik h2 {
+    padding-top: 5%;
+}
+
+.statistik li {
+    text-align: center;
+    float: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding-left: 15%;
+    color: #47515f;
+    line-height: 40px;
+    margin-top: 6%;
+    padding-top: 2%;
+}
+
+.statistik p {
+    color: #47515f;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 20%;
+}
+
+.happy {
+    background: url(../img/иконки/smyle.png) top left 90% no-repeat;
+}
+
+.hour {
+    background: url(../img/иконки/skobki.png) top left 97% no-repeat;
+}
+
+.finish {
+    background: url(../img/иконки/galochka.png) top left 92% no-repeat;
+}
+
+.win {
+    background: url(../img/иконки/cub.png) top left 94% no-repeat;
+}
+
+.title__container7 {
+    width: 100%;
+    height: 60%;
+    text-align: center
+}
+
+.title__container7 img {
+    padding-top: 5%;
+
+}
+
+.title__container7 p {
+    font-size: 16px;
+    color: #243042;
+    padding-top: 2%;
+}
+
+.fio {
+    font-size: 16px;
+    color: #243042;
+    padding-top: 2%;
+}
+
+.contakt {
+    background: url(../img/Фон/BG5.jpeg) center/cover no-repeat;
+    color: #ffffff;
+
+}
+
+.title__container8 h2 {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 5%
+}
+
+.title__container8 h4 {
+    color: #ffffff;
+    text-align: center;
+    float: left;
+    margin-top: 5%;
+    font-size: 21px;
+    font-family: 'Franklin Gothic Medium',
+        Arial,
+        'sans-serif';
+    margin-right: 40%;
+    padding-left: 2%;
+}
+
+.contakt p {
+    color: #ffffff;
+    padding-top: 2%
+}
+
+.title__container8 li {
+    text-align: center;
+    float: left;
+    font-size: 17px;
+    margin-top: 4%;
+    padding-top: 2%;
+    padding-left: 4%;
+    font-family: Calibri, Arial, 'sans-serif';
+
+
+
+}
+
+.adres {
+    background: url(../img/иконки/geo.png) top left 70% no-repeat;
+    margin-left: 28%;
+}
+
+.mail {
+
+    background: url(../img/иконки/conv.png) top left 65% no-repeat;
+}
+
+.tel {
+    background: url(../img/иконки/tel.png) top left 75% no-repeat;
+
+}
+
+.name {
+    width: 350px;
+    height: 35px;
+    background: url(../img/Фон/mes.png) center/cover no-repeat;
+    opacity: 0.9;
+    text-align: left;
+    margin-right: 51.6%;
+    float: right;
+    position: relative;
+    top: 20px;
+    padding-left: 1%;
+}
+
+.email {
+    width: 350px;
+    height: 35px;
+    background: url(../img/Фон/mes.png) center/cover no-repeat;
+    opacity: 0.9;
+    text-align: left;
+    margin-right: 31.38%;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    padding-left: 1%;
+}
+
+.message {
+    width: 735px;
+    height: 95px;
+    background: url(../img/Фон/mes.png) center/cover no-repeat;
+    opacity: 0.9;
+    text-align: left;
+    margin-left: 30%;
+    padding-left: 1%;
+}
+
+footer {
+    background: #354051;
+
+}
+
+footer p {
+    color: #fff;
+    line-height: 95px;
+    font-size: 14px;
+}
+
+.push {
+    height: 45px;
+    width: 125px;
+    text-emphasis: center;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 21px;
+    padding: 10px 10px 10px 10px;
+    margin-top: 2%;
+    margin-left: 46%;
+    margin-bottom: 10%;
+}
